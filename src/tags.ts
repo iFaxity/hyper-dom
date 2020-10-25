@@ -123,10 +123,7 @@ export const textarea: HNode<HTMLTextAreaElement> = h.bind(null, 'textarea');
 // Special tag, creates a documentFragment
 // Special tag, creates a comment
 export function fragment(...children: (string|Node)[]): DocumentFragment {
-  const frag = document.createDocumentFragment();
-  children.forEach(child => drainChildren(frag, child as any));
-
-  return frag;
+  return drainChildren(document.createDocumentFragment(), children);
 }
 
 export function comment(content: string): Comment {
