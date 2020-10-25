@@ -1,6 +1,6 @@
 {
   "name": "@ifaxity/hyper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A modern hyperscript inspired library with IE9+ support.",
   "author": "christian@faxity.se (Christian Norrman)",
   "license": "MIT",
