@@ -1,16 +1,16 @@
 {
   "name": "@ifaxity/hyper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A modern hyperscript inspired library with IE9+ support.",
   "author": "christian@faxity.se (Christian Norrman)",
   "license": "MIT",
   "homepage": "https://github.com/iFaxity/hyper-dom",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/iFaxity/hyper-dom.git"
+    "type": "git",
+    "url": "https://github.com/iFaxity/hyper-dom.git"
   },
   "files": [
-    "dist/"
+    "dist"
   ],
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
